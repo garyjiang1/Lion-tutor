@@ -2,13 +2,29 @@
 
 <h1>Tutors List</h1>
 
-<div id="tutors">
-  <% @tutors.each do |tutor| %>
-    <%= render tutor %>
-    <p>
-      <%= link_to "Show this tutor", tutor %>
-    </p>
-  <% end %>
-</div>
+<table class="table table-striped table-bordered table-hover">
 
-<%= link_to "New tutor", new_tutor_path %>
+<thead class="thead-dark">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Bio</th>
+  </tr>
+</thead>
+
+<% @tutors.each do |tutor| %>
+  <tr>
+    <td>
+        <%= link_to tutor.first_name + ' ' + tutor.last_name, tutor %>
+    </td>
+    <td><%= tutor.email %></td>
+    <td><%= tutor.phone %></td>
+    <td><%= tutor.bio %></td>
+    <td><%= link_to 'Delete', tutor, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-danger btn-sm" %></td>
+  </tr>
+<% end %>
+</table>
+<br>
+
+<%= link_to 'Add antoher tutor', new_tutor_path, class:"btn btn-secondary" %>

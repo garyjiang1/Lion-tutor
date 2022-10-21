@@ -1,10 +1,33 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @tutor %>
+
+<div class="jumbotron">
+  <h1 class="display-4">
+    <%= @tutor.first_name %>
+    <%= @tutor.last_name %>
+  </h1>
+  <p class="lead">
+    <%= @tutor.email %> | 
+    <%= @tutor.phone %> |
+    <%= @tutor.bio %> 
+  </p>
+  <strong >Rating:</strong>
+  <p >
+    Rating goes here..
+  </p>
+  
+  <hr class="my-4">
+  <strong >My Calendar:</strong>
+  <p >
+    Calendar goes here..
+  </p>
+  
+</div>
 
 <div>
-  <%= link_to "Edit this tutor", edit_tutor_path(@tutor) %> |
-  <%= link_to "Back to tutors", tutors_path %>
-
-  <%= button_to "Destroy this tutor", @tutor, method: :delete %>
+  <%= link_to "Edit this tutor", edit_tutor_path(@tutor), class:"btn btn-secondary" %> 
+  <%= link_to "Back to tutors", tutors_path, class:"btn btn-dark" %>
+  <br>
+  <br>
+  <%= button_to "Remove tutor", @tutor,  method: :delete, class:"btn btn-danger" %>
 </div>
