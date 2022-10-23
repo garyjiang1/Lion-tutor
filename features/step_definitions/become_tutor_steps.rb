@@ -15,15 +15,18 @@ When('I press Create Tutor button') do
     click_button "Create Tutor"
 end
 
-Then('I should see tutor created message') do
-    expect(page).to have_content("Tutor was successfully created.")
-end
-
 When('I press Back to tutors button') do
     click_button "Back to tutors"
 end
 
+Then('I should see tutor created message') do
+    expect(page).to have_content("Tutor was successfully created.")
+end
+
+Then('I should not see tutor list page') do
+    expect(page).to_not have_content("Tutors List")
+end
+
 Then('I should see tutors list') do
-    #visit tutors_path
     expect(page).to have_content("Tutors List")
 end

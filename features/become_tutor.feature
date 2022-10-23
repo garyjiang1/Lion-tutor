@@ -11,7 +11,5 @@ Scenario: Creating new tutor
     Given I am on Become a Tutor Page
     When I press Create Tutor button
     Then I should see tutor created message
+    And I should not see tutor list page
 
-Scenario: Back to tutors list
-    When I press Back to tutors button
-    Then I should see tutors list
