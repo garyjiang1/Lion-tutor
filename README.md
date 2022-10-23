@@ -6,3 +6,6 @@
 # Installing
 - installing rspec: rails generate rspec:install
 
+# Run tests
+- run: cucumber -s   
+
