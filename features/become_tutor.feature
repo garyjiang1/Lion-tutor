@@ -3,7 +3,13 @@ Feature: become a new tutor
     So that I can share my knowedge of a given topic to my classmate
     I want interested classmates to be able to choose me as their tutor
 
-Scenario: Become a tutor page should be visible
-    When I go to the become a tutor tab
-    Then I should see the Become a tutor page contents
+Scenario: Become a tutor tab should be visible
+    When I go to the homepage
+    Then I should see the Become a tutor tab
+
+Scenario: Creating new tutor
+    Given I am on Become a Tutor Page
+    When I press Create Tutor button
+    Then I should see tutor created message
+    And I should not see tutor list page
 
