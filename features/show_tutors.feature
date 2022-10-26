@@ -22,6 +22,6 @@ Scenario: Tutors tab should be visible
     And I should not see Tutor was successfully created message
     And I should see all the tutors
 
-Scenario: 
+Scenario: Add Tutor to Tutors List
     When I press Add Another Tutor button
     Then I should see new tutor page with an option to create tutor
