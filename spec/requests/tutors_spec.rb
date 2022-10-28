@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe "Tutors", type: :request do
+  before(:all) do
+    @tutor = Tutor.create(first_name:'Faiza', last_name:'Khan', email:'fk2421@columbia.edu', phone:'1234', bio:'CS')
+  end
+
   describe "Test for tutors page" do
     it "returns a success for tutor page" do
       get tutors_path
@@ -13,6 +17,12 @@ RSpec.describe "Tutors", type: :request do
       expect(response).to be_successful
       expect(response.body).to include("md monirul")
       expect(response.body).not_to include("gary")
+    end
+  end
+  describe "Test for tutors page delete" do
+    it "deletes a tutor" do
+      @tutor.destroy
+      expect { @tutor.reload }.to raise_error ActiveRecord::RecordNotFound
     end
   end
 end
