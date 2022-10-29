@@ -13,17 +13,17 @@ RSpec.describe Tutor, type: :model do
       expect(tutor).to eq(false)
     end
 
-    it 'ensures email name is present' do
+    it 'ensures email is present' do
       tutor = Tutor.new(first_name:'first', last_name:'last').save
       expect(tutor).to eq(false)
     end
 
-    it 'ensures phone name is present' do
+    it 'ensures phone is present' do
       tutor = Tutor.new(first_name:'first', last_name:'last').save
       expect(tutor).to eq(false)
     end
 
-    it 'ensures bio name is present' do
+    it 'ensures bio is present' do
       tutor = Tutor.new(first_name:'first', last_name:'last').save
       expect(tutor).to eq(false)
     end
