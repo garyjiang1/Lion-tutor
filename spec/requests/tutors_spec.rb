@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'factory_bot_rails'
 
 RSpec.describe "Tutors", type: :request do
   before(:all) do
@@ -19,12 +20,14 @@ RSpec.describe "Tutors", type: :request do
       expect(response.body).not_to include("gary")
     end
   end
+
   describe "Test for tutors page delete" do
     it "deletes a tutor" do
       @tutor.destroy
       expect { @tutor.reload }.to raise_error ActiveRecord::RecordNotFound
     end
   end
+
   describe 'GET /index' do
     it 'renders a successful response' do
       tutor = Tutor.new(first_name:'md monirul', last_name:'islam', email:'test@gmail.com', phone:'1234', bio:'bio').save
@@ -42,5 +45,16 @@ RSpec.describe "Tutors", type: :request do
       get edit_tutor_url(tutor)
       expect(response).to be_successful
     end
+
+    it 'finds the tutor' do
+      expect(:tutor).not_to be nil
+    end
   end
+
+  describe 'GET /show' do
+    it 'finds the tutor' do
+      expect(:tutor).not_to be nil
+    end
+  end
+
 end
