@@ -57,4 +57,11 @@ RSpec.describe "Tutors", type: :request do
     end
   end
 
+  describe 'GET /new' do
+    it 'renders a successful response' do
+      get new_tutor_url
+      expect(response).to be_successful
+    end
+  end
+
 end

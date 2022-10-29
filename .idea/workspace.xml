@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="improved coverage">
-      <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" afterDir="false" />
-    </list>
+    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="improved coverage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,8 +60,8 @@
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Tutors GET /show">
-    <configuration name="Tutors GET /edit" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="RSpec.Tutors GET /new">
+    <configuration name="Tutors GET /new" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="COMSW4152_tutorials_ai" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -90,7 +85,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Tutors GET /edit" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Tutors GET /new" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -243,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.Tutors GET /new" />
         <item itemvalue="RSpec.Tutors GET /show" />
         <item itemvalue="RSpec.Tutors PUT #update" />
         <item itemvalue="RSpec.Tutors PATCH /update" />
         <item itemvalue="RSpec.Tutors" />
-        <item itemvalue="RSpec.Tutors GET /edit" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +259,7 @@
       <workItem from="1666544885324" duration="2000" />
       <workItem from="1666544920714" duration="22000" />
       <workItem from="1667056777954" duration="645000" />
-      <workItem from="1667057776659" duration="4604000" />
+      <workItem from="1667057776659" duration="5260000" />
     </task>
     <task id="LOCAL-00001" summary="updated readme file accordingly based on the hw">
       <created>1667058889239</created>
@@ -280,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667062078766</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="improved coverage">
+      <created>1667062521724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667062521724</updated>
+    </task>
+    <task id="LOCAL-00004" summary="improved coverage">
+      <created>1667062644866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667062644866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +316,7 @@
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Tutors_GET__index.rcov" NAME="Tutors GET /index Coverage Results" MODIFIED="1667059749858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Tutors_PUT__update.rcov" NAME="Tutors PUT #update Coverage Results" MODIFIED="1667061626197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Tutors.rcov" NAME="Tutors Coverage Results" MODIFIED="1667060913165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
-    <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Tutors_GET__show.rcov" NAME="Tutors GET /show Coverage Results" MODIFIED="1667061760394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
+    <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Tutors_GET__show.rcov" NAME="Tutors GET /show Coverage Results" MODIFIED="1667062422281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Tutors_GET__edit.rcov" NAME="Tutors GET /edit Coverage Results" MODIFIED="1667060898816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
   </component>
 </project>
