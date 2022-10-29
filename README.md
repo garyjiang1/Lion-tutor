@@ -37,6 +37,20 @@ bundle exec rspec
 ## Start server
 `rails server -b localhost`
 
+## Heroku Link
+https://blooming-reef-86407.herokuapp.com/
+
+## Github Link
+https://github.com/Monirul1/COMSW4152_lion_tutor
+
+# Contributors 🥒
+The thanks goes to these wonderful people
+
+- Md Monirul Islam (im2594)
+- Faiza Khan (fk2421)
+- Jiawei Jiang (jj3179)
+- Sahitya Raipura (sr3962)
+
 ## If experiencing issues in "bundle install" stating "An error occurred while installing pg (1.4.4), and Bundler cannot continue # In Gemfile: pg" then run:
 ```shell
 brew install postgresql
