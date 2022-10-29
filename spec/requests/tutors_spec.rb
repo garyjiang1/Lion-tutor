@@ -25,4 +25,22 @@ RSpec.describe "Tutors", type: :request do
       expect { @tutor.reload }.to raise_error ActiveRecord::RecordNotFound
     end
   end
+  describe 'GET /index' do
+    it 'renders a successful response' do
+      tutor = Tutor.new(first_name:'md monirul', last_name:'islam', email:'test@gmail.com', phone:'1234', bio:'bio').save
+      # post.user = current_user
+      # post.save
+      get tutors_path
+      expect(response).to be_successful
+    end
+  end
+
+  describe 'GET /edit' do
+    it 'render a successful response' do
+      tutor = Tutor.new(first_name:'md monirul', last_name:'islam', email:'test@gmail.com', phone:'1234', bio:'bio')
+      tutor.save
+      get edit_tutor_url(tutor)
+      expect(response).to be_successful
+    end
+  end
 end
