@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="updated readme file accordingly based on the hw">
-      <change afterPath="$PROJECT_DIR$/spec/factories/tutor.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="improved coverage">
       <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
@@ -269,7 +264,7 @@
       <workItem from="1666544885324" duration="2000" />
       <workItem from="1666544920714" duration="22000" />
       <workItem from="1667056777954" duration="645000" />
-      <workItem from="1667057776659" duration="4282000" />
+      <workItem from="1667057776659" duration="4604000" />
     </task>
     <task id="LOCAL-00001" summary="updated readme file accordingly based on the hw">
       <created>1667058889239</created>
@@ -278,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667058889239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="improved coverage">
+      <created>1667062078766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667062078766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +299,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated readme file accordingly based on the hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme file accordingly based on the hw" />
+    <MESSAGE value="improved coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved coverage" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Tutors_PATCH__update.rcov" NAME="Tutors PATCH /update Coverage Results" MODIFIED="1667061125584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />

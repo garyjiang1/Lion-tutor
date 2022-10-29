@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'factory_bot_rails'
 
 RSpec.describe "Tutors", type: :request do
   before(:all) do
@@ -52,8 +51,9 @@ RSpec.describe "Tutors", type: :request do
   end
 
   describe 'GET /show' do
+    tutor = FactoryBot.create(:tutor)
     it 'finds the tutor' do
-      expect(:tutor).not_to be nil
+      expect(tutor).not_to be nil
     end
   end
 

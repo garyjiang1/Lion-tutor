@@ -315,11 +315,11 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
+          2,
+          2,
           null,
           null
         ]
@@ -375,7 +375,6 @@
       "/Users/gary/Documents/GitHub/COMSW4152_lion_tutor/spec/requests/tutors_spec.rb": {
         "lines": [
           1,
-          1,
           null,
           1,
           1,
@@ -427,6 +426,7 @@
           null,
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -517,6 +517,6 @@
         ]
       }
     },
-    "timestamp": 1667061874
+    "timestamp": 1667062504
   }
 }
