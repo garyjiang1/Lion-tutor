@@ -78,6 +78,7 @@ group :test do
   gem 'rspec-rails'
   gem "cucumber-rails"
   gem 'factory_bot_rails'
+  gem 'rails-controller-testing'
 end
 
 gem 'simplecov', require: false, group: :test
