@@ -52,7 +52,7 @@ RSpec.describe "Tutors", type: :request do
 
   describe 'GET /show' do
     tutor = FactoryBot.create(:tutor)
-    it 'finds the tutor' do
+    it 'shows the tutor' do
       expect(tutor).not_to be nil
     end
   end
