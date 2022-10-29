@@ -311,19 +311,6 @@
           null
         ]
       },
-      "/Users/gary/Documents/GitHub/COMSW4152_lion_tutor/spec/factories/tutor.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
       "/Users/gary/Documents/GitHub/COMSW4152_lion_tutor/config/routes.rb": {
         "lines": [
           1,
@@ -395,14 +382,12 @@
           1,
           null,
           null,
-          null,
           1,
           1,
           1,
           2,
           null,
           null,
-          null,
           1,
           1,
           1,
@@ -419,25 +404,6 @@
           1,
           1,
           1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
           null,
           null,
           null
@@ -459,7 +425,7 @@
           null,
           null,
           1,
-          1,
+          0,
           null,
           null,
           null,
@@ -524,6 +490,6 @@
         ]
       }
     },
-    "timestamp": 1667065672
+    "timestamp": 1667058833
   }
 }
