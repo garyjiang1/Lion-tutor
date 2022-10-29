@@ -7,9 +7,9 @@ Scenario: Become a tutor tab should be visible
     When I go to the homepage
     Then I should see the Become a tutor tab
 
-Scenario: Creating new tutor
+Scenario: Creating new tutor happy path
     Given I am on Become a Tutor Page
-    When I press Create Tutor button
+    And I fill out the tutor information
     Then I should see tutor created message
     And I should not see tutor list page
 
