@@ -4,6 +4,7 @@ First, we need to install the correct ruby environment
 ### check ruby version
 ```sh
 # check your ruby version
+# for our project we are using ruby version 3.1.0
 # if the ruby version is not 3.1.0, please go to install the correct ruby version
 ruby -v
 ```
@@ -12,7 +13,7 @@ ruby -v
 ```sh
 # check your rails version
 # for our project we are using rails version 7.0.4
-# Type the command below to confirm the correct version is installed
+# if the ruby version is not 7.0.4, please go to install the correct rails version
  rails -v
 ```
 
