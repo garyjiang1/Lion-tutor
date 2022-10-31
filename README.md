@@ -1,3 +1,6 @@
+For our team, we are running our project on Mac OS.
+Please grade the branch named proj-iter1.
+
 ## Run locally
 First, we need to install the correct ruby environment
 
