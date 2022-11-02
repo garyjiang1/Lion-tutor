@@ -81,3 +81,4 @@ group :test do
 end
 
 gem 'simplecov', require: false, group: :test
+gem "simple_calendar", "~> 2.4"
