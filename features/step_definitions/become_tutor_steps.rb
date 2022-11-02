@@ -35,3 +35,42 @@ end
 Then('I should see tutors list') do
     expect(page).to have_content("Tutors List")
 end
+
+
+And("I fill out the tutor information with empty entry") do
+    fill_in('First Name', with: '')
+    fill_in('Last Name', with: '')
+    fill_in('Email', with: '')
+    fill_in('Phone Number', with: '')
+    fill_in('Tell us about yourself', with: '')
+    click_on('Create Tutor')
+end
+
+Then("I should see 5 errors prohibited this tutor from being saved") do
+    page.should have_content("5 errors prohibited this tutor from being saved:")
+end
+
+And("I should see First name can not be blank") do
+    page.should have_content("First name can't be blank")
+end
+
+And("I should see Last name can not be blank") do
+    page.should have_content("Last name can't be blank")
+end
+
+And("I should see Email can not be blank") do
+    page.should have_content("Email can't be blank")
+end
+
+And("I should see Phone can not be blank") do
+    page.should have_content("Phone can't be blank")
+end
+
+And("I should see Bio can not be blank")do
+    page.should have_content("Bio can't be blank")
+end
+
+Then('I should not see tutor created message') do
+    page.should_not have_content("Tutor was successfully created.")
+    page.should have_content("Back to tutors")
+end
