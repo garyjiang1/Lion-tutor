@@ -5,14 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/calendar_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/meetings_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/calendar_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/meetings_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/meeting.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/calendar/home.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/_meeting.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/_meeting.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/meetings/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/simple_calendar/_calendar.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/simple_calendar/_month_calendar.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/simple_calendar/_week_calendar.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20221108204725_create_meetings.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/meetings_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/pages_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/meetings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/meeting_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/meetings_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/become_tutor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/become_tutor.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/become_tutor_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/become_tutor_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +55,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GXpb0ULGuIT3bjgRgtJ2wzh99s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -121,6 +148,8 @@
       <workItem from="1667344009868" duration="70000" />
       <workItem from="1667417312574" duration="1111000" />
       <workItem from="1667418432589" duration="1233000" />
+      <workItem from="1667940344228" duration="1453000" />
+      <workItem from="1667941905144" duration="2719000" />
     </task>
     <servers />
   </component>
@@ -137,5 +166,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

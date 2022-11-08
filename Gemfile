@@ -54,7 +54,7 @@ group :development, :test do
 end
 
 group :development do
-  # Use console on exceptions pages [https://github.com/rails/web-console]
+  # Use console on exceptions calendar [https://github.com/rails/web-console]
   gem "web-console"
   gem "sqlite3", "~> 1.4"
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
