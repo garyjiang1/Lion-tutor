@@ -6,7 +6,7 @@
     </div>
 
     <% meetings.each do |meeting| %>
-      <div clas="card-header">
+      <div class="card-header">
         <h5 class="card-title">
           <%= link_to meeting.title, meeting %>
         </h5>
@@ -26,6 +26,7 @@
           To: <%= meeting.end_time.strftime('%A, %B %d, %Y at %I:%M %p') %>
         </p>
       </div>
+
     <% end %>
   <% end %>
 </div>
