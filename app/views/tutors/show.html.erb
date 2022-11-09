@@ -16,24 +16,26 @@
   <p > 
   Rating out of 5
   </p>
+</div>
 
+  <div>
+    <%= link_to "Edit this tutor", edit_tutor_path(@tutor), class:"btn btn-secondary" %>
+    <%= link_to "Back to tutors", tutors_path, class:"btn btn-dark" %>
+    <br>
+    <br>
+    <%= button_to "Remove tutor", @tutor,  method: :delete, class:"btn btn-danger" %>
+  </div>
+
+  <br>
   <hr class="my-4">
   <strong >My Calendar:</strong>
   <div class="container mt-5 text-center">
     <%= month_calendar(event: @meetings) do|date, meetings| %>
       <div class="day">
         <%= date.day %>
-      </div>
-
+        <% meetings.each do |meeting| %>
+          <%= meeting.title %>
+        <% end %>
     <% end %>
+      </div>
   </div>
-
-</div>
-
-<div>
-  <%= link_to "Edit this tutor", edit_tutor_path(@tutor), class:"btn btn-secondary" %> 
-  <%= link_to "Back to tutors", tutors_path, class:"btn btn-dark" %>
-  <br>
-  <br>
-  <%= button_to "Remove tutor", @tutor,  method: :delete, class:"btn btn-danger" %>
-</div>
