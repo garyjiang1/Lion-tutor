@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="added weekly start">
+    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="added weekly start(working slowly to update the design)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/calendar/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/calendar/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/meetings/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/meetings/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/simple_calendar/_calendar.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/simple_calendar/_month_calendar.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/simple_calendar/_week_calendar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +158,7 @@
       <workItem from="1667417312574" duration="1111000" />
       <workItem from="1667418432589" duration="1233000" />
       <workItem from="1667940344228" duration="1453000" />
-      <workItem from="1667941905144" duration="8660000" />
+      <workItem from="1667941905144" duration="12219000" />
     </task>
     <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
       <created>1667944900025</created>
@@ -193,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667950118005</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added weekly start(working slowly to update the design)">
+      <created>1667953064074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667953064074</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +216,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added booking features for calendar (still need to fix the styling)" />
     <MESSAGE value="added weekly start" />
-    <option name="LAST_COMMIT_MESSAGE" value="added weekly start" />
+    <MESSAGE value="added weekly start(working slowly to update the design)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added weekly start(working slowly to update the design)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@test_should_destroy_meeting.rcov" NAME="test_should_destroy_meeting Coverage Results" MODIFIED="1667946533779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
