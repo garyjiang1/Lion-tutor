@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="updated the design by using simple calendar template and installed bootstrap, calendar can be rendered under the tutor's tab">
+    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="small format update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/calendar/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/calendar/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tutors/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tutors/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,7 @@
       <workItem from="1667958588355" duration="1065000" />
       <workItem from="1668011826108" duration="2540000" />
       <workItem from="1668016267252" duration="4796000" />
-      <workItem from="1668026868975" duration="2429000" />
+      <workItem from="1668026868975" duration="2743000" />
     </task>
     <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
       <created>1667944900025</created>
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668026573178</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="small format update">
+      <created>1668034793343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668034793344</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +244,8 @@
     <MESSAGE value="added weekly start" />
     <MESSAGE value="added weekly start(working slowly to update the design)" />
     <MESSAGE value="updated the design by using simple calendar template and installed bootstrap, calendar can be rendered under the tutor's tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the design by using simple calendar template and installed bootstrap, calendar can be rendered under the tutor's tab" />
+    <MESSAGE value="small format update" />
+    <option name="LAST_COMMIT_MESSAGE" value="small format update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@test_should_destroy_meeting.rcov" NAME="test_should_destroy_meeting Coverage Results" MODIFIED="1668014521360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
