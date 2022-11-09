@@ -16,13 +16,18 @@
   <p > 
   Rating out of 5
   </p>
-  
+
   <hr class="my-4">
   <strong >My Calendar:</strong>
-  <p >
-    Calendar goes here..
-  </p>
-  
+  <div class="container mt-5 text-center">
+    <%= month_calendar(event: @meetings) do|date, meetings| %>
+      <div class="day">
+        <%= date.day %>
+      </div>
+
+    <% end %>
+  </div>
+
 </div>
 
 <div>

@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="added weekly start(working slowly to update the design)">
+      <change afterPath="$PROJECT_DIR$/app/views/simple_calendar/_month_calendar.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/calendar/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/calendar/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tutors/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tutors/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/spec" />
     </key>
@@ -158,7 +167,11 @@
       <workItem from="1667417312574" duration="1111000" />
       <workItem from="1667418432589" duration="1233000" />
       <workItem from="1667940344228" duration="1453000" />
-      <workItem from="1667941905144" duration="12219000" />
+      <workItem from="1667941905144" duration="13062000" />
+      <workItem from="1667957943184" duration="145000" />
+      <workItem from="1667958588355" duration="1065000" />
+      <workItem from="1668011826108" duration="2540000" />
+      <workItem from="1668016267252" duration="4464000" />
     </task>
     <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
       <created>1667944900025</created>
@@ -195,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667953064074</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added weekly start(working slowly to update the design)">
+      <created>1667957088907</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667957088907</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +240,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added weekly start(working slowly to update the design)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@test_should_destroy_meeting.rcov" NAME="test_should_destroy_meeting Coverage Results" MODIFIED="1667946533779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
+    <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@test_should_destroy_meeting.rcov" NAME="test_should_destroy_meeting Coverage Results" MODIFIED="1668014521360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
   </component>
 </project>

@@ -3,8 +3,9 @@
 <%= render @meeting %>
 
 <div>
-  <%= link_to "Edit this meeting", edit_meeting_path(@meeting) %> |
-  <%= link_to "Back to meetings", meetings_path %>
-
-  <%= button_to "Destroy this meeting", @meeting, method: :delete %>
+  <%= link_to "Edit this meeting", edit_meeting_path(@meeting), class:"btn btn-secondary"%>
+  <%= link_to "Back to meetings", meetings_path, class:"btn btn-dark" %>
+  <br>
+  <br>
+  <%= button_to "Delete this meeting", @meeting, method: :delete, class:"btn btn-secondary" %>
 </div>

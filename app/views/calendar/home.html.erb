@@ -1,17 +1,17 @@
 <div class="container mt-5 text-center">
-  <h1>Calendar</h1>
+  <h1>Full Calendar</h1>
   <%= month_calendar(events: @meetings) do |date, meetings| %>
     <div class="day">
       <%= date.day %>
+      <% meetings.each do |meeting| %>
+        <div class="card-header">
+            <%= link_to meeting.title, meeting %>
+          </h5>
+        </div>
     </div>
 
-    <% meetings.each do |meeting| %>
-      <div class="card-header">
-        <h5 class="card-title">
-          <%= link_to meeting.title, meeting %>
-        </h5>
-      </div>
 
+      <!--
       <div class ="card-body">
         <p class ="card-text">
           <%= meeting.description %>
@@ -26,6 +26,7 @@
           To: <%= meeting.end_time.strftime('%A, %B %d, %Y at %I:%M %p') %>
         </p>
       </div>
+      -->
 
     <% end %>
   <% end %>
