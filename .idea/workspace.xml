@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="small format update" />
+    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="small format update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/new.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,6 +168,8 @@
       <workItem from="1668016267252" duration="4796000" />
       <workItem from="1668026868975" duration="2743000" />
       <workItem from="1668035063374" duration="230000" />
+      <workItem from="1668104830121" duration="171000" />
+      <workItem from="1668106695496" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
       <created>1667944900025</created>

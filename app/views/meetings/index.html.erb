@@ -4,13 +4,9 @@
 
 <div id="meetings">
   <% @meetings.each do |meeting| %>
-    <div class="container">
-        <%= render meeting %>
-    </div>
+    <%= render meeting %>
     <p>
       <%= link_to "Show this meeting", meeting , class:"btn btn-secondary"%>
-      <br>
-      <br>
     </p>
   <% end %>
 </div>
