@@ -5,6 +5,7 @@ class MeetingsController < ApplicationController
   def index
     @meetings = Meeting.all
   end
+  
 
   # GET /meetings/1 or /meetings/1.json
   def show
@@ -13,6 +14,9 @@ class MeetingsController < ApplicationController
   # GET /meetings/new
   def new
     @meeting = Meeting.new
+    @meetings = Meeting.where(
+      start_time: Time.now.beginning_of_month.beginning_of_week..Time.now.end_of_month.end_of_week
+    )
   end
 
   # GET /meetings/1/edit
@@ -67,4 +71,6 @@ class MeetingsController < ApplicationController
     def meeting_params
       params.require(:meeting).permit(:title, :description, :start_time, :end_time)
     end
+
+    
 end

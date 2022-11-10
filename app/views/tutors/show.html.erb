@@ -28,14 +28,34 @@
 
   <br>
   <hr class="my-4">
-  <strong >My Calendar:</strong>
+  <strong >Tutor Availability Calendar:</strong>
   <div class="container mt-5 text-center">
-    <%= month_calendar(event: @meetings) do|date, meetings| %>
-      <div class="day">
-        <%= date.day %>
-        <% meetings.each do |meeting| %>
-          <%= meeting.title %>
-        <% end %>
+  <%= month_calendar(events: @meetings) do |date, meetings| %>
+    <div class="day">
+      <%= date.day %>
+      <% meetings.each do |meeting| %>
+        <div class="card-header">
+            <%= link_to meeting.title, meeting %>
+        </div>
+    </div>
+
+      <!--
+      <div class ="card-body">
+        <p class ="card-text">
+        </p>
+      </div>
+
+      <div class="card-footer">
+        <p class="card-text">
+          From:
+        </p>
+        <p class="card-text">
+          To:
+        </p>
+      </div>
+      -->
+
     <% end %>
+  <% end %>
       </div>
   </div>
