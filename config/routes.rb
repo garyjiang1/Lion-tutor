@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :meetings
   resources :tutors
   get 'home/about'
