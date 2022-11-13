@@ -10,7 +10,6 @@
     <th>Email</th>
     <th>Phone</th>
     <th>Bio</th>
-    <th>Rating</th>
   </tr>
 </thead>
 
@@ -22,7 +21,6 @@
     <td><%= tutor.email %></td>
     <td><%= tutor.phone %></td>
     <td><%= tutor.bio %></td>
-    <td><%= rand(1..5) %></td>
     <td><%= link_to 'Delete', tutor, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-danger btn-sm" %></td>
   </tr>
 <% end %>

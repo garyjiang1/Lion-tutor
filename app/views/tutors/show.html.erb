@@ -11,18 +11,18 @@
     <%= @tutor.phone %> |
     <%= @tutor.bio %> 
   </p>
-  <strong >Rating:</strong>
-  <td><%= rand(1..5) %></td>
-  <p > 
-  Rating out of 5
-  </p>
-  
-  <hr class="my-4">
-  <strong >My Calendar:</strong>
-  <p >
-    Calendar goes here..
-  </p>
-  
+  <% sum = 0 %>
+  <% length = 0 %>
+  <% if !@reviews.blank? %>
+  <% @reviews.each do |review| %>
+    <% sum+=review.rating %>
+    <% length+=1 %>
+    <% end %>
+  <% res = sum / length %>
+  <strong> Average Rating (1-poor, 5-excellent): <%= res %> </strong>
+  <% end %>
+  <p>  
+  <br> </br>
 </div>
 
 <div>
@@ -31,4 +31,32 @@
   <br>
   <br>
   <%= button_to "Remove tutor", @tutor,  method: :delete, class:"btn btn-danger" %>
+  <%= link_to "Write a Review", new_tutor_review_path(@tutor), class:"btn btn-dark" %> 
 </div>
+
+<div class = "col-md-7 col-md-offset-1">
+<h1 class = "review_title"> </h1>
+<% if @reviews.blank? %>
+  <h3> No reviews for this tutor just yet. Be the first to add one! </h3> 
+<% else %>
+  <% @reviews.each do |review| %>
+    <div class= "reviews">
+        <p> <%= review.rating %> </p>
+        <p> <%= review.comment %> </p>
+    </div>
+    <% end %>
+  <% end %>
+</div>
+
+
+<script>
+$(document).ready(function() {
+    $('.star-rating').raty({
+      path: '/assets/',
+      readOnly: true,
+      score: function(){
+        return $(this).attr('data-score')
+      }
+    });
+</script> 
+
