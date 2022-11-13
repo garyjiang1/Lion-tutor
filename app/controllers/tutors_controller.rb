@@ -1,6 +1,6 @@
 class TutorsController < ApplicationController
   before_action :set_tutor, only: %i[ show edit update destroy ]
-
+  before_action :authenticate_user!, except: [:index, :show]
   # GET /tutors or /tutors.json
   def index
     @tutors = Tutor.all
@@ -8,11 +8,16 @@ class TutorsController < ApplicationController
 
   # GET /tutors/1 or /tutors/1.json
   def show
+    @reviews = Review.where(tutor_id: @tutor.id).order("created_at DESC")
   end
 
+  def avg_rating
+    review.average(:rating)
+  end 
+  
   # GET /tutors/new
   def new
-    @tutor = Tutor.new
+    @tutor = current_user.tutors.build
   end
 
   # GET /tutors/1/edit
@@ -21,7 +26,7 @@ class TutorsController < ApplicationController
 
   # POST /tutors or /tutors.json
   def create
-    @tutor = Tutor.new(tutor_params)
+    @tutor = current_user.tutors.build(tutor_params)
 
     respond_to do |format|
       if @tutor.save
