@@ -1,0 +1,55 @@
+<p style="color: green"><%= notice %></p>
+<h1> <FONT COLOR= "#012169"> Tutor Information </h1>
+<br>
+<h3> <FONT COLOR= "#012169"> Add Tutor Availability </h3>
+
+  <%= render "form", meeting: @meeting %>
+
+  <br>
+  <br>
+
+  <h3> <FONT COLOR= "#012169"> Available Meetings </h3>
+  <div id="meetings">
+  <% @meetings.each do |meeting| %>
+    <%= render meeting %>
+    <p>
+      <%= link_to "Meeting Changes", meeting , class:"btn btn-secondary"%>
+    </p>
+  <% end %>
+</div>
+
+  <br>
+  <br>
+
+  <h3> <FONT COLOR= "#012169"> Booked Meeetings </h3>
+  <div class="container mt-5 text-center">
+  <%= month_calendar(events: @meetings) do |date, meetings| %>
+    <div class="day">
+      <%= date.day %>
+      <% meetings.each do |meeting| %>
+        <div class="card-header">
+            <%= link_to meeting.title, meeting %>
+        </div>
+    </div>
+
+      <!--
+      <div class ="card-body">
+        <p class ="card-text">
+        </p>
+      </div>
+
+      <div class="card-footer">
+        <p class="card-text">
+          From:
+        </p>
+        <p class="card-text">
+          To:
+        </p>
+      </div>
+      -->
+
+    <% end %>
+  <% end %>
+      </div>
+
+</div>

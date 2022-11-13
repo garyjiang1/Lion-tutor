@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" afterDir="false" />
+    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="small format update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/become_tutor.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/become_tutor.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/become_tutor_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/become_tutor_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/meetings/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,17 +23,27 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GXpb0ULGuIT3bjgRgtJ2wzh99s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -52,11 +58,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_destroy_meeting">
     <configuration name="Scenario: Creating new tutor sad path" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="COMSW4152_tutorials_ai" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -94,8 +101,40 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
+    <configuration name="test_should_destroy_meeting" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="COMSW4152_tutorials_ai" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/meetings_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/test/controllers/meetings_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_should_destroy_meeting$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_destroy_meeting" />
         <item itemvalue="Cucumber.Scenario: Creating new tutor sad path" />
       </list>
     </recent_temporary>
@@ -121,7 +160,88 @@
       <workItem from="1667344009868" duration="70000" />
       <workItem from="1667417312574" duration="1111000" />
       <workItem from="1667418432589" duration="1233000" />
+      <workItem from="1667940344228" duration="1453000" />
+      <workItem from="1667941905144" duration="13062000" />
+      <workItem from="1667957943184" duration="145000" />
+      <workItem from="1667958588355" duration="1065000" />
+      <workItem from="1668011826108" duration="2540000" />
+      <workItem from="1668016267252" duration="4796000" />
+      <workItem from="1668026868975" duration="2743000" />
+      <workItem from="1668035063374" duration="230000" />
+      <workItem from="1668104830121" duration="171000" />
+      <workItem from="1668106695496" duration="654000" />
     </task>
+    <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
+      <created>1667944900025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667944900025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added booking features for calendar (still need to fix the styling)">
+      <created>1667946964961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667946964961</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added booking features for calendar (still need to fix the styling)">
+      <created>1667947334125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667947334125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added weekly start">
+      <created>1667950118005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667950118005</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added weekly start(working slowly to update the design)">
+      <created>1667953064074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667953064074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added weekly start(working slowly to update the design)">
+      <created>1667957088907</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667957088907</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated the design by using simple calendar template and installed bootstrap, calendar can be rendered under the tutor's tab">
+      <created>1668026573178</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668026573178</updated>
+    </task>
+    <task id="LOCAL-00008" summary="small format update">
+      <created>1668034793343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668034793344</updated>
+    </task>
+    <task id="LOCAL-00009" summary="small format update">
+      <created>1668035118435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668035118435</updated>
+    </task>
+    <task id="LOCAL-00010" summary="small format update">
+      <created>1668035176729</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668035176729</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +257,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added booking features for calendar (still need to fix the styling)" />
+    <MESSAGE value="added weekly start" />
+    <MESSAGE value="added weekly start(working slowly to update the design)" />
+    <MESSAGE value="updated the design by using simple calendar template and installed bootstrap, calendar can be rendered under the tutor's tab" />
+    <MESSAGE value="small format update" />
+    <option name="LAST_COMMIT_MESSAGE" value="small format update" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@test_should_destroy_meeting.rcov" NAME="test_should_destroy_meeting Coverage Results" MODIFIED="1668014521360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
   </component>
 </project>
