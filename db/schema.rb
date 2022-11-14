@@ -10,8 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
-ActiveRecord::Schema[7.0].define(version: 2022_11_13_070102) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_13_194051) do
   create_table "meetings", force: :cascade do |t|
     t.string "title"
     t.text "description"
@@ -20,8 +19,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_13_070102) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "tutor"
+  end
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_13_194051) do
   create_table "reviews", force: :cascade do |t|
     t.integer "rating"
     t.text "comment"
@@ -29,7 +28,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_13_194051) do
     t.datetime "updated_at", null: false
     t.integer "user_id"
     t.integer "tutor_id"
-
   end
 
   create_table "tutors", force: :cascade do |t|

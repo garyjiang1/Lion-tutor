@@ -22,12 +22,39 @@
   <strong> Average Rating (1-poor, 5-excellent): <%= res %> </strong>
   <% end %>
   <p>  
-  <br> </br>
+  
+  <div class = "col-md-7 col-md-offset-1">
+<h1 class = "review_title"> </h1>
+<% if @reviews.blank? %>
+  <strong> No reviews for this tutor just yet. Be the first to add one! </strong> 
+<% else %>
+<strong> Reviews for this tutor: </strong> 
+  <% @reviews.each do |review| %>
+    <div class= "reviews">
+        <p> Rating: <%= review.rating %> </p>
+        <p> Comment: <%= review.comment %> </p>
+    </div>
+    <% end %>
+  <% end %>
 </div>
+<br> </br>
+
+<script>
+$(document).ready(function() {
+    $('.star-rating').raty({
+      path: '/assets/',
+      readOnly: true,
+      score: function(){
+        return $(this).attr('data-score')
+      }
+    });
+</div>
+</script> 
 
   <div>
     <%= link_to "Edit this tutor", edit_tutor_path(@tutor), class:"btn btn-secondary" %>
     <%= link_to "Back to tutors", tutors_path, class:"btn btn-dark" %>
+    <%= link_to "Write a Review", new_tutor_review_path(@tutor), class:"btn btn-dark" %> 
     <br>
     <br>
     <%= button_to "Remove tutor", @tutor,  method: :delete, class:"btn btn-danger" %>
@@ -67,33 +94,9 @@
       </div>
   </div>
 
-  <%= button_to "Remove tutor", @tutor,  method: :delete, class:"btn btn-danger" %>
-  <%= link_to "Write a Review", new_tutor_review_path(@tutor), class:"btn btn-dark" %> 
-</div>
 
-<div class = "col-md-7 col-md-offset-1">
-<h1 class = "review_title"> </h1>
-<% if @reviews.blank? %>
-  <h3> No reviews for this tutor just yet. Be the first to add one! </h3> 
-<% else %>
-  <% @reviews.each do |review| %>
-    <div class= "reviews">
-        <p> <%= review.rating %> </p>
-        <p> <%= review.comment %> </p>
-    </div>
-    <% end %>
-  <% end %>
 </div>
 
 
-<script>
-$(document).ready(function() {
-    $('.star-rating').raty({
-      path: '/assets/',
-      readOnly: true,
-      score: function(){
-        return $(this).attr('data-score')
-      }
-    });
-</script> 
+
 
