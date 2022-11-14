@@ -23,7 +23,7 @@ Capybara.default_selector = :css
 #
 # Sometimes we want to override this default behaviour and allow Rails to rescue
 # exceptions and display an error page (just like when the app is running in production).
-# Typical scenarios where you want to do this is when you test your error pages.
+# Typical scenarios where you want to do this is when you test your error calendar.
 # There are two ways to allow Rails to rescue exceptions:
 #
 # 1) Tag your scenario (or feature) with @allow-rescue

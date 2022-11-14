@@ -1,0 +1,10 @@
+<h1>Editing meeting</h1>
+
+<%= render "form", meeting: @meeting %>
+
+<br>
+
+<div>
+  <%= link_to "Meeting Changes", @meeting, class:"btn btn-secondary" %>
+  <%= link_to "Back to meetings", meetings_path,  class:"btn btn-dark" %>
+</div>
