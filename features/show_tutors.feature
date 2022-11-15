@@ -5,12 +5,12 @@ Feature: show tutors list
 
 
 Background: Tutors have been added to database
-  Given the following tutors exist:
-  | first_name           | last_name  | email                | phone         | bio                  |
-  | MD Monirul           | Islam      | im2594@columbia.edu  | 111-222-3456  | Hi! I like to teach! |
-  | Faiza                | Khan       | fk2421@columbia.edu  | 111-222-3456  | Hi! I like to teach! |
-  | Gary                 | Jiang      | chillg@columbia.edu  | 111-222-3456  | Hi! I'm chilling!    |
 
+  Given the following tutors exist:
+  | first_name           | last_name  | email                | phone         | bio                  | user_id
+  | MD Monirul           | Islam      | im2594@columbia.edu  | 111-222-3456  | Hi! I like to teach! | 1
+  | Faiza                | Khan       | fk2421@columbia.edu  | 111-222-3456  | Hi! I like to teach! | 2
+  | Gary                 | Jiang      | chillg@columbia.edu  | 111-222-3456  | Hi! I'm chilling!    | 3
 
   And I am on the Tutors tab page
   Then 3 seed tutors should exist

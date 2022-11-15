@@ -6,6 +6,7 @@ Given /the following tutors exist/ do |tutors_table|
     end
 end
 
+
 And('I am on the Tutors tab page') do 
     visit tutors_path
 end
@@ -40,5 +41,5 @@ Then /I should see all the tutors/ do
 end
 
 Then('I should see new tutor page with an option to create tutor') do
-    expect(page).to have_button "Create Tutor"
+    expect(page).to have_button 'Create Tutor'
 end

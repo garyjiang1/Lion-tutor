@@ -5,6 +5,8 @@ RSpec.describe "Tutors", type: :request do
     @tutor = Tutor.create(first_name:'Faiza', last_name:'Khan', email:'fk2421@columbia.edu', phone:'1234', bio:'CS')
   end
 
+
+
   describe "Test for tutors page" do
     it "returns a success for tutor page" do
       get new_tutor_path
@@ -51,7 +53,7 @@ RSpec.describe "Tutors", type: :request do
   end
 
   describe 'GET /show' do
-    tutor = FactoryBot.create(:tutor)
+    # tutor = FactoryBot.create(:tutor)
     it 'shows the tutor' do
       expect(tutor).not_to be nil
     end
