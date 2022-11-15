@@ -3,6 +3,15 @@ Feature: become a new tutor
     So that I can share my knowedge of a given topic to my classmate
     I want interested classmates to be able to choose me as their tutor
 
+Background: Should should sign up
+    When I click the sign up tab
+    Then I should able to fill in Email
+    And I should be able to fill in Password
+    And I should be able to fill in Confirm Password
+    Then I should be able to click Sign up button
+    Then I should land on the homepage
+    And I should see the Welcome To Lion Tutor text
+
 Scenario: Become a tutor tab should be visible
     When I go to the homepage
     Then I should see the Become a tutor tab

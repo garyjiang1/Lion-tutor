@@ -5,7 +5,6 @@ Feature: show tutors list
 
 
 Background: Tutors have been added to database
-
   Given the following tutors exist:
   | first_name           | last_name  | email                | phone         | bio                  |
   | MD Monirul           | Islam      | im2594@columbia.edu  | 111-222-3456  | Hi! I like to teach! |
@@ -15,6 +14,7 @@ Background: Tutors have been added to database
 
   And I am on the Tutors tab page
   Then 3 seed tutors should exist
+
 
 Scenario: Tutors tab should be visible
     When I click Tutors
