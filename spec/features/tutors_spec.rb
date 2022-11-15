@@ -55,7 +55,7 @@ RSpec.feature "Tutors", type: :feature do
 
   context 'destroy tutor' do
     scenario 'should be successfull' do
-      tutor = Tutor.create(first_name:'md monirul', last_name:'last', email:'test@gmail.com', phone:'1234', bio:'bio')
+      tutor = Tutor.create(first_name:'md monirul', last_name:'last', email:'test@gmail.com', phone:'1234', bio:'bio', user_id: 1)
       visit tutors_path
       expect(page).to have_content('md monirul')
       click_on 'Delete', match: :first
