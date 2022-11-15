@@ -22,5 +22,10 @@ RSpec.describe Meeting, type: :model do
       expect(meeting).to eq(false)
     end
 
+    it 'should not successfully save a meeting' do
+      meeting = Meeting.new(title:'', description:'', start_time:'', end_time:'').save
+      expect(meeting).to eq(false)
+    end
+
   end
 end

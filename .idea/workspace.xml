@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/spec/features/meeting_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/models/meeting_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/meeting_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +178,7 @@
       <workItem from="1668104830121" duration="171000" />
       <workItem from="1668106695496" duration="654000" />
       <workItem from="1668546096864" duration="1355000" />
+      <workItem from="1668555101676" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
       <created>1667944900025</created>
