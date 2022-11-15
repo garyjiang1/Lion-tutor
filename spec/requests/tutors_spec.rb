@@ -5,11 +5,9 @@ RSpec.describe "Tutors", type: :request do
     @tutor = Tutor.create(first_name:'Faiza', last_name:'Khan', email:'fk2421@columbia.edu', phone:'1234', bio:'CS')
   end
 
-
-
   describe "Test for tutors page" do
     it "returns a success for tutor page" do
-      get new_tutor_path
+      get tutors_path
       expect(response).to be_successful
     end
 
@@ -43,7 +41,7 @@ RSpec.describe "Tutors", type: :request do
     it 'render a successful response' do
       tutor = Tutor.new(first_name:'md monirul', last_name:'islam', email:'test@gmail.com', phone:'1234', bio:'bio')
       tutor.save
-      get edit_tutor_url(tutor)
+      get edit_tutor_url
       expect(response).to be_successful
     end
 
@@ -53,7 +51,7 @@ RSpec.describe "Tutors", type: :request do
   end
 
   describe 'GET /show' do
-    # tutor = FactoryBot.create(:tutor)
+    tutor = Tutor.new(first_name:'md monirul', last_name:'islam', email:'test@gmail.com', phone:'1234', bio:'bio')
     it 'shows the tutor' do
       expect(tutor).not_to be nil
     end
