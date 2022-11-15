@@ -10,7 +10,7 @@
 
   <h3> <FONT COLOR= "#012169"> Available Meetings </h3>
   <div id="meetings">
-  <% Meeting.all.each do |meeting| %>
+  <% @meetings.each do |meeting| %>
     <%= render meeting %>
     <p>
       <%= link_to "Meeting Changes", meeting , class:"btn btn-secondary"%>
