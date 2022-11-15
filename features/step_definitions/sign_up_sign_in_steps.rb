@@ -34,6 +34,29 @@ Then("I should land on the homepage") do
     visit root_path
 end
 
+
 Then("I should see the Welcome To Lion Tutor text") do
     expect(page).to have_content("Welcome To Lion Tutor") 
 end
+
+Then("I should see the Tutor Profile header") do
+    expect(page).to have_content("Tutor Profile") 
+end
+
+
+Then("I should see the Sign Out header") do
+    expect(page).to have_content("Sign Out") 
+end
+
+When('I click the sign in tab') do
+    visit new_user_session_path
+ end
+
+ When('I click the sign out tab') do
+    visit destroy_user_session_path
+ end
+
+ Then("I should be able to click Log in button") do
+    click_button "Log in"
+end
+

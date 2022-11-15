@@ -4,6 +4,7 @@ Feature: show tutors list
     To choose which tutor I would like to meet with
 
 
+
 Background: Tutors have been added to database
 
   Given the following tutors exist:
@@ -22,6 +23,14 @@ Scenario: Tutors tab should be visible
     And I should not see Tutor was successfully created message
     And I should see all the tutors
 
+
 Scenario: Add Tutor to Tutors List
+    When I click the sign up tab
+    Then I should able to fill in Email
+    And I should be able to fill in Password
+    And I should be able to fill in Confirm Password
+    Then I should be able to click Sign up button
+    When I click Tutors
+    Then I should see the list of tutors info columns
     When I press Add Another Tutor button
     Then I should see new tutor page with an option to create tutor
