@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="small format update">
+      <change afterPath="$PROJECT_DIR$/features/meetings.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/meetings_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/meeting_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMSW4152_tutorials_ai.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/meetings/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/meeting.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/meeting.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/meetings/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/meetings/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -63,7 +76,7 @@
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_destroy_meeting">
+  <component name="RunManager" selected="RSpec.Meeting">
     <configuration name="Scenario: Creating new tutor sad path" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="COMSW4152_tutorials_ai" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -101,6 +114,41 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
+    <configuration name="Meeting" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="COMSW4152_tutorials_ai" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/meeting_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Meeting" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_should_destroy_meeting" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="COMSW4152_tutorials_ai" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -134,6 +182,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.Meeting" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_destroy_meeting" />
         <item itemvalue="Cucumber.Scenario: Creating new tutor sad path" />
       </list>
@@ -170,6 +219,7 @@
       <workItem from="1668035063374" duration="230000" />
       <workItem from="1668104830121" duration="171000" />
       <workItem from="1668106695496" duration="654000" />
+      <workItem from="1668525120555" duration="9875000" />
     </task>
     <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
       <created>1667944900025</created>
@@ -269,5 +319,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@test_should_destroy_meeting.rcov" NAME="test_should_destroy_meeting Coverage Results" MODIFIED="1668014521360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
+    <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@Meeting.rcov" NAME="Meeting Coverage Results" MODIFIED="1668536093735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
   </component>
 </project>

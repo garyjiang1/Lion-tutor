@@ -10,7 +10,7 @@
 
   <h3> <FONT COLOR= "#012169"> Available Meetings </h3>
   <div id="meetings">
-  <% @meetings.each do |meeting| %>
+  <% Meeting.all.each do |meeting| %>
     <%= render meeting %>
     <p>
       <%= link_to "Meeting Changes", meeting , class:"btn btn-secondary"%>
@@ -21,7 +21,6 @@
   <br>
   <br>
 
-  <h3> <FONT COLOR= "#012169"> Booked Meeetings </h3>
   <div class="container mt-5 text-center">
   <%= month_calendar(events: @meetings) do |date, meetings| %>
     <div class="day">
