@@ -78,7 +78,7 @@ group :test do
   gem "webdrivers"
   gem 'database_cleaner'
   gem 'rspec-rails'
-  gem "cucumber-rails"
+  gem "cucumber-rails", require: false
   gem 'factory_bot_rails'
   gem 'bootstrap-sass'
 end
