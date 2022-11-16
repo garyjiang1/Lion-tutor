@@ -2,20 +2,28 @@ When('I am on the home page') do
     visit root_path
   end
   
-Then('I should see the Tutor tab') do
+Then('I should see the Tutors tab') do
     expect(page).to have_content("Tutors")
 end
 
-When('I click on the tutor') do
-    visit @tutor
+When('I click on the Tutors tab') do
+    visit tutors_path
+end
+
+Then('I should see a tutor with name Faiza') do 
+    expect(page).to have_content "Faiza"
+end
+
+When('I click the tutor with name Faiza') do 
+    click_link_or_button "Faiza Khan"
 end
 
 Then('I should see a Write a Review button') do
     expect(page).to have_content "Write a Review"
 end
 
-When('I click new review') do
-    click_on('Write a Review')
+When('I click Write a Review button') do
+    click_link_or_button "Write a Review"
 end
 
 And ("I fill out the review rating") do
