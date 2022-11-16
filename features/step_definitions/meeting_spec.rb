@@ -77,3 +77,21 @@ Then("I should not see all available meeting information") do
   expect(page).to_not have_content("xxx") 
   expect(page).to_not have_content("meeting 1") 
 end
+
+Then("I should be able to click Edit this meeting") do
+  click_link_or_button("Edit this meeting")
+end
+
+And("I should able to edit in Title") do
+  fill_in('Title', with: 'meeting 2')
+end
+
+Then("I should be able to click Update Meeting") do
+  click_link_or_button("Update Meeting")
+end
+
+Then("I should be able to see updated meeting") do
+  expect(page).to have_content("xxx") 
+  expect(page).to have_content("meeting 2") 
+end
+

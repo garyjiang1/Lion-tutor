@@ -27,9 +27,18 @@ Feature: Tutors should be able to submit time availability
     Then I should see a list of available meetings
     And I should see all available meeting information
 
-  Scenario: Tutor should be able to delete availability
+   Scenario: Tutor should be able to edit availability
     When I click the Tutor Profile tab
     Then I should see a list of available meetings
     Then I should be able to click Meeting Changes
     Then I should be able to click Delete this meeting
     And I should not see all available meeting information
+
+  Scenario: Tutor should be able to delete availability
+    When I click the Tutor Profile tab
+    Then I should see a list of available meetings
+    Then I should be able to click Meeting Changes
+    Then I should be able to click Edit this meeting
+    Then I should able to edit in Title
+    Then I should be able to click Update Meeting
+    Then I should be able to see updated meeting
