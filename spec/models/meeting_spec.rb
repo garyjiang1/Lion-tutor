@@ -27,5 +27,30 @@ RSpec.describe Meeting, type: :model do
       expect(meeting).to eq(false)
     end
 
+    it 'should not successfully save a meeting because title is empty' do
+      meeting = Meeting.new(title:'', description:'x', start_time:'2022/11/16', end_time:'2022/11/16').save
+      expect(meeting).to eq(false)
+    end
+
+    it 'should not successfully save a meeting because description is empty' do
+      meeting = Meeting.new(title:'x', description:'', start_time:'2022/11/16', end_time:'2022/11/16').save
+      expect(meeting).to eq(false)
+    end
+
+    it 'should not successfully save a meeting because start time is empty' do
+      meeting = Meeting.new(title:'x', description:'x', start_time:'', end_time:'2022/11/16').save
+      expect(meeting).to eq(false)
+    end
+
+    it 'should not successfully save a meeting because end time is empty' do
+      meeting = Meeting.new(title:'x', description:'x', start_time:'2022/11/16', end_time:'').save
+      expect(meeting).to eq(false)
+    end
+
+    it 'should successfully save a meeting' do
+      meeting = Meeting.new(title:'x', description:'w', start_time:'2022/11/16', end_time:'2022/11/17').save
+      expect(meeting).to eq(true)
+    end
+
   end
 end
