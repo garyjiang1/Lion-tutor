@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="update">
+    <list default="true" id="fada1f42-dbb3-42d6-a17c-c87e20f4df3d" name="Changes" comment="added more RSpec tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/tutor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tutor.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/meeting_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/meeting_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/tutors_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/tutor_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/tutor_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +180,7 @@
       <workItem from="1668106695496" duration="654000" />
       <workItem from="1668546096864" duration="1355000" />
       <workItem from="1668555101676" duration="319000" />
+      <workItem from="1668565867468" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="added booking features for calendar (still need to fix the styling)">
       <created>1667944900025</created>
@@ -257,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668546816851</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added more RSpec tests">
+      <created>1668566100817</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668566100817</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +291,8 @@
     <MESSAGE value="updated the design by using simple calendar template and installed bootstrap, calendar can be rendered under the tutor's tab" />
     <MESSAGE value="small format update" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="added more RSpec tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more RSpec tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMSW4152_lion_tutor@test_should_destroy_meeting.rcov" NAME="test_should_destroy_meeting Coverage Results" MODIFIED="1668014521360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="COMSW4152_tutorials_ai" />
