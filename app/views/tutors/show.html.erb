@@ -24,19 +24,19 @@
   <p>  
   
   <div class = "col-md-7 col-md-offset-1">
-<h1 class = "review_title"> </h1>
-<% if @reviews.blank? %>
-  <strong> No reviews for this tutor just yet. Be the first to add one! </strong> 
-<% else %>
-<strong> Reviews for this tutor: </strong> 
-  <% @reviews.each do |review| %>
-    <div class= "reviews">
+    <h1 class = "review_title"> </h1>
+    <% if @reviews.blank? %>
+      strong> No reviews for this tutor just yet. Be the first to add one! </strong> 
+    <% else %>
+      <strong> Existing reviews for this tutor: </strong> 
+      <% @reviews.each do |review| %>
+      <div class= "reviews">
         <p> Rating: <%= review.rating %> </p>
         <p> Comment: <%= review.comment %> </p>
-    </div>
+      </div>
+      <% end %>
     <% end %>
-  <% end %>
-</div>
+  </div>
 <br> </br>
 
 <script>
@@ -47,7 +47,7 @@ $(document).ready(function() {
       score: function(){
         return $(this).attr('data-score')
       }
-    });
+});
 </div>
 </script> 
 
