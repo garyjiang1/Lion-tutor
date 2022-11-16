@@ -46,8 +46,8 @@ And("I fill out the tutor information with empty entry") do
     click_on('Create Tutor')
 end
 
-Then("I should see 5 errors prohibited this tutor from being saved") do
-    page.should have_content("5 errors prohibited this tutor from being saved:")
+Then("I should see 7 errors prohibited this tutor from being saved") do
+    page.should have_content("7 errors prohibited this tutor from being saved:")
 end
 
 And("I should see First name can not be blank") do

@@ -25,7 +25,7 @@ Scenario: Creating new tutor (happy path)
     Scenario: Creating new tutor (sad path)
         Given I am on Become a Tutor Page
         And I fill out the tutor information with empty entry
-        Then I should see 5 errors prohibited this tutor from being saved
+        Then I should see 7 errors prohibited this tutor from being saved
         And I should see First name can not be blank
         And I should see Last name can not be blank
         And I should see Email can not be blank
