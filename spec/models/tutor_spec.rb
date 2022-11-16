@@ -18,29 +18,8 @@ RSpec.describe Tutor, type: :model do
       expect(tutor).to eq(false)
     end
 
-    it 'ensures an blank email will not work' do
-      tutor = Tutor.new(email:'').save
-      expect(tutor).to eq(false)
-    end
-
-    it 'ensures an a weird email format will not work' do
-      tutor = Tutor.new(email:'xcasdasv').save
-      expect(tutor).to eq(false)
-    end
-
     it 'ensures phone is present' do
       tutor = Tutor.new(first_name:'first', last_name:'last').save
-      expect(tutor).to eq(false)
-    end
-
-    it 'ensures non-number phone can not work' do
-      tutor = Tutor.new(phone:'x').save
-      expect(tutor).to eq(false)
-    end
-
-
-    it 'ensure the phone is number' do
-      tutor = Tutor.new(phone:'1112223333').save
       expect(tutor).to eq(false)
     end
 
